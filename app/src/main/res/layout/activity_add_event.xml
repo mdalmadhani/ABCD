@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Event"
+        android:textSize="24sp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/eventTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Title"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/eventDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Description"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/eventDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Date (YYYY-MM-DD)"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/eventTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Time (HH:MM)"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/saveEventButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Event"/>
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home"/>
+</LinearLayout>

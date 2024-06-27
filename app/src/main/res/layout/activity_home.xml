@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/parkMeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ParkME"/>
+
+    <Button
+        android:id="@+id/crowdAroundButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CrowdAround"/>
+
+    <Button
+        android:id="@+id/busMeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BusMe"/>
+
+    <Button
+        android:id="@+id/myCalendarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MyCalendar"/>
+
+    <Button
+        android:id="@+id/academicMonitoringButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Academic Monitoring"/>
+
+    <Button
+        android:id="@+id/studyGroupsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="StudyGroupsand Forums"/>
+
+</LinearLayout>
